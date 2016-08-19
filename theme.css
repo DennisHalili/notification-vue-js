@@ -1,0 +1,89 @@
+/* Stylesheet */
+
+.notif {
+	display: table;
+	width: 100%;
+	margin: 10px 0;
+	line-height: 150%;
+}
+	.notif div {
+		padding: 10px;
+		display: table-cell;
+		vertical-align: middle; 
+	}
+
+	.notif .n-icon {
+		width: 5%;
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.notif .n-con {
+		width: 94%;
+		padding-left: 20px;
+		font-size: small;
+	}
+
+	.notif .n-con span {
+		display: block;
+		font-weight: bolder;
+		text-transform: uppercase;
+	}
+
+	.notif .n-close {
+		width: 1%;
+		padding-left: 10px;
+		cursor: pointer;
+	}
+
+.notif.info {
+	border: 1px solid #00AEEF;
+	background-color: #e4f8ff;
+}
+	.notif.info .n-icon {
+	 background-color: #00AEEF;
+	 color: #fff !important;
+	}
+
+	.notif.info span {
+		color: #00AEEF;
+	}
+
+.notif.success {
+	border: 1px solid #66b426;
+    background-color: #e8ffd5;
+}
+    .notif.success .n-icon {
+	 background-color: #66b426;
+	 color: #fff !important;
+	}
+
+	.notif.success span {
+		color: #66b426;
+	}
+
+.notif.warning {
+	border: 1px solid #e58e0b;
+    background-color: #fff4db;
+}
+    .notif.warning .n-icon {
+	 background-color: #e58e0b;
+	 color: #fff !important;
+	}
+
+	.notif.warning span {
+		color: #e58e0b;
+	}
+
+.notif.danger {
+	border: 1px solid #e14444;
+    background-color: #fff2f2;
+}
+    .notif.danger .n-icon {
+	 background-color: #e14444;
+	 color: #fff !important;
+	}
+
+	.notif.danger span {
+		color: #e14444;
+	}
